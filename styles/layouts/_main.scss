@@ -1,0 +1,22 @@
+main {
+  margin: 50px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 25px repeat(2, 1fr) 25px repeat(2, 1fr) 25px;
+  column-gap: 25px;
+  align-items: center;
+  width: 80%;
+
+  @media screen and (max-width: 1150px) {
+    width: 90%;
+  }
+
+  @media screen and (max-width: 920px) {
+    display: block;
+    width: 65%;
+  }
+
+  @media screen and (max-width: 660px) {
+    width: 80%;
+  }
+}

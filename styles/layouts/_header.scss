@@ -1,0 +1,59 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+
+  @media screen and (max-width: 920px) {
+    width: 70%;
+  }
+
+  @media screen and (max-width: 660px) {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+    font-weight: 200;
+    line-height: 3rem;
+    color: rgb(76, 78, 97);
+    margin: 0;
+
+    @media screen and (max-width: 577px) {
+      font-size: 2rem;
+      line-height: 2rem;
+    }
+
+    @media screen and (max-width: 555px) {
+      font-size: 1.8rem;
+    }
+
+    @media screen and (max-width: 455px) {
+      font-size: 1.6rem;
+      line-height: 2rem;
+    }
+
+    @media screen and (max-width: 380px) {
+      font-size: 1.4rem;
+      line-height: 2rem;
+    }
+  }
+
+  span {
+    color: rgb(76, 78, 97);
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 1rem;
+    margin: 0;
+    margin-top: 20px;
+
+    @media screen and (max-width: 555px) {
+      font-size: 0.9rem;
+    }
+  }
+}
